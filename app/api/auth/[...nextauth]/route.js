@@ -12,6 +12,12 @@ const handler = NextAuth({
 
     },
     async signIn({ profile }) {
+        try{
+            // serverless -> Lambda -> dynamodb
+        } catch (error) {
+
+
+        }
 
     }
 })
