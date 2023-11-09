@@ -15,8 +15,8 @@ const PromptCardList = ({ data, handleTagClick }) => {
           />
         ))}
     </div>
-  )
-}
+  );
+};
 
   const Feed = () => {
   const [searchText, setSearchText] = useState('');
@@ -59,4 +59,4 @@ const PromptCardList = ({ data, handleTagClick }) => {
   )
 }
 
-export default Feed
+export default Feed;
